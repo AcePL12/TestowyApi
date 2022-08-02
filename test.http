@@ -1,0 +1,33 @@
+GET http://localhost/4BT/Projekty/zadanie-ap/public/api/posts HTTP/1.1
+
+###
+
+POST http://localhost/4BT/Projekty/zadanie-ap/public/api/posts HTTP/1.1
+
+content-type: application/json
+
+{
+    "title": "My new title",
+    "content": "Kontencik"
+}
+
+
+###
+Post http://localhost/4BT/Projekty/zadanie-ap/public/api/posts HTTP/1.1
+
+content-type: application/json
+
+{
+    "title": "My third title",
+    "content": "Kontenciki"
+}
+
+###
+Put http://localhost/4BT/Projekty/zadanie-ap/public/api/posts/1
+
+content-type: application/json
+
+{
+    "title": "My third title (updated)",
+    "content": "Kontenciki (updated)"
+}
